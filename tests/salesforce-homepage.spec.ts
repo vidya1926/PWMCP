@@ -27,4 +27,5 @@ test('Salesforce HomePage - Validate after login and locate App Launcher', async
   const viewAllButton = page.locator('//button[text()="View All"]');
   await expect(viewAllButton).toBeVisible();
   await viewAllButton.click();
+  console.log("MCP config")
 });
